@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>小火把工作台</title>
+<style>
+  :root { --bg:#fff8f3; --ink:#2b2118; --muted:#7a6a5d; --brand:#ff5a1f; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink);
+         font:16px/1.7 -apple-system,"PingFang SC","Microsoft YaHei",sans-serif; }
+  main { max-width:720px; margin:0 auto; padding:56px 20px 40px; }
+  .logo { width:88px; height:88px; border-radius:22px; display:block; margin-bottom:22px; }
+  h1 { font-size:28px; margin:0 0 8px; letter-spacing:.5px; }
+  .sub { color:var(--muted); margin:0 0 32px; }
+  .card { background:#fff; border:1px solid #ffe3d3; border-radius:14px;
+          padding:22px 24px; margin-bottom:16px; }
+  .card h2 { font-size:16px; margin:0 0 8px; color:var(--brand); }
+  .card p { margin:0; color:var(--muted); font-size:15px; }
+  footer { margin-top:36px; padding-top:18px; border-top:1px solid #ffe3d3;
+           color:#9a8b7e; font-size:13px; line-height:1.8; }
+  a { color:var(--brand); }
+</style>
+</head>
+<body>
+<main>
+  <img class="logo" src="icon.png" alt="小火把工作台">
+  <h1>小火把工作台</h1>
+  <p class="sub">面向电商卖家的选品数据分析工具</p>
+
+  <div class="card">
+    <h2>榜单汇总</h2>
+    <p>汇总公开商品榜单中的价格、销量、类目与店铺信息，统一整理成可比较的表格。</p>
+  </div>
+
+  <div class="card">
+    <h2>规则筛选</h2>
+    <p>按价格带、销量门槛、类目与关键词规则过滤商品，减少人工翻榜的时间。</p>
+  </div>
+
+  <div class="card">
+    <h2>每日快照</h2>
+    <p>每天记录一次榜单数据，用于观察销量变化趋势，辅助判断商品热度。</p>
+  </div>
+
+  <footer>
+    <p>本工具为个人自用的数据分析工具，非拼多多官方产品，与拼多多无隶属关系。</p>
+    <p>数据仅用于内部选品研究，不提供交易、支付、注册或其他面向消费者的服务。</p>
+    <p>如需联系：请通过开发者账号预留邮箱。</p>
+  </footer>
+</main>
+</body>
+</html>
